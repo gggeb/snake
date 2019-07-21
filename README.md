@@ -7,4 +7,5 @@ compiling
 ---------
 
 requires `ncurses.h`.
+
 `gcc -lncurses snake.c -o snake`
