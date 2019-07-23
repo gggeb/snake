@@ -79,6 +79,7 @@ int init_state(struct state *s) {
 
 void free_state(struct state *s) {
     free(s->segments);
+    s->segments = NULL;
 }
 
 int dir_value(int dir) {
