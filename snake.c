@@ -339,7 +339,7 @@ int update(struct state *game, int c) {
 }
 
 int main(int argc, char *argv[]) {
-    int cb, c, last_state = SUCCESS;
+    int cb, c = '\0', last_state = SUCCESS;
     struct state game;
 
     handle_args(argc, argv);
